@@ -7,11 +7,29 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+ul {
   padding: 0;
   margin: 0;
-
   list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link {
@@ -24,9 +42,4 @@ body {
 
 .top-section {
   padding-top: 94px;
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
 }
