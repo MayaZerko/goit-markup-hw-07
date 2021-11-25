@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.link {
+  color: inherit;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ececec;
+}
+
+.top-section {
+  padding-top: 94px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
