@@ -1,17 +1,21 @@
 .company-ideal {
+  padding-top: 94px;
+}
+
+.company-ideal__block {
   display: flex;
 }
 
-.company-ideal .company-item {
+.company-ideal__item {
   width: 270px;
   margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
-.company-ideal .company-item:last-child {
-  margin-right: 0;
-}
-
-.company-item .section-icon {
+.company-ideal__icon {
   display: block;
   background-color: #f5f4fa;
   text-align: center;
@@ -25,7 +29,7 @@
   justify-content: center;
 }
 
-.company-ideal .title {
+.company-ideal__title {
   color: var(--title-text-color);
   margin-top: 0;
   margin-bottom: 10px;
@@ -36,7 +40,7 @@
   text-transform: uppercase;
 }
 
-.company-ideal .text {
+.company-ideal__text {
   margin: 0;
   font-size: 14px;
   line-height: 1.71;

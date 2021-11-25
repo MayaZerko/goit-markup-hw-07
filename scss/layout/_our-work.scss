@@ -1,17 +1,17 @@
-.our-work-item {
-  position: relative;
-}
-
-.our-work {
+.our-work__block {
   display: flex;
   justify-content: space-between;
 }
 
-.our-work-title {
+.our-work__title {
   text-align: center;
 }
 
-.our-work-card-text {
+.our-work__item {
+  position: relative;
+}
+
+.our-work__text {
   color: var(--white-color);
   font-weight: bold;
   font-size: 14px;
